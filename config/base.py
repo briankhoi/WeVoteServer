@@ -11,7 +11,8 @@ import pathlib
 import re
 from django.core.exceptions import ImproperlyConfigured
 from django.db import connection
-
+import sys
+sys.path.append("/home/brian/WeVoteServer/venv/lib/python3.10/site-packages/")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # Override in local.py for development
